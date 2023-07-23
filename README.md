@@ -7,3 +7,6 @@ Normal = 1,5 segundo.
 Dificil = 1 segundo.
 Chuck norris = 0,75 segundo.
 
+![Tela inicial](https://github.com/FilipeDuart/Jogo-Mosquito-JS/blob/main/preview/tela_inicial.png)
+![Tela Jogo](https://github.com/FilipeDuart/Jogo-Mosquito-JS/blob/main/preview/tela_jogo.png)
+
