@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jogo</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script src="jogo.js"></script>
+    </head>
+    <body onresize="setTamanho()">
+            <div id="painel">
+                <div id="vidas">
+                    <img id="vida1" src="imagens/coracao_cheio.png">
+                    <img id="vida2" src="imagens/coracao_cheio.png">
+                    <img id="vida3" src="imagens/coracao_cheio.png">
+                </div>
+                <div id="contador">
+                    Tempo restante: <span id="tempo"></span>
+                </div>
+            </div>
+        <script>
+            var iniciaJogo = setInterval(function(){
+                mosquito()
+            },velocidadeMosquito)
+        </script>
+    </body>
+</html>
